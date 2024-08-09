@@ -1,0 +1,24 @@
+Task 1: String Operations
+Write a Python method that takes two strings, concatenates them, reverses the result,
+and then extracts the middle substring of the given length. Ensure your method handles edge cases,
+such as an empty string or a substring length larger than the concatenated string.
+
+Task 2: Naive Pattern Search
+Implement the naive pattern searching algorithm to find all occurrences of a pattern within a given text string.
+Count the number of comparisons made during the search to evaluate the efficiency of the algorithm.
+
+Task 3: Implementing Heap Operations
+Code a min-heap in Python with methods for insertion, deletion, and fetching the minimum element.
+Ensure that the heap property is maintained after each operation.
+
+Task 4: Graph Edge Addition Validation
+Given a directed graph in Python, write a function that adds an edge between two nodes and then
+checks if the graph still has no cycles. If a cycle is created, the edge should not be added.
+
+Task 5: Breadth-First Search (BFS) Implementation
+For a given undirected graph in Python, implement BFS to traverse the graph starting from a given node and
+print each node in the order it is visited.
+
+Task 6: Depth-First Search (DFS) Recursive
+Write a recursive DFS function in Python for a given undirected graph.
+The function should visit every node and print it out.

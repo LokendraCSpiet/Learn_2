@@ -1,0 +1,4 @@
+Hello,
+This is a test.
+Writing strings to a file.
+End of file.

@@ -1,0 +1,12 @@
+commands -
+    pytest -s
+    pytest --rootdir .
+    pytest --rootdir . -s
+    pytest -v
+
+# To check multi worker test -
+pip install pytest-xdist
+pytest -n 4
+
+# To get report of test -
+pytest > test_report.txt

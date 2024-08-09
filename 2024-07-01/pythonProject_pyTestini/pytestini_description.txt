@@ -1,0 +1,26 @@
+minversion = 6.0:
+            Ensures pytest version 6.0 or higher is used.
+
+addopts = -ra -q --maxfail=3 --durations=5:
+            -ra:            Shows a summary of test results.
+            -q:             Runs tests in quiet mode.
+            --maxfail=3:    Stops after 3 test failures.
+            --durations=5:  Shows the 5 slowest test durations.
+
+testpaths = tests:
+            Looks for test files in the tests directory.
+
+python_files = test_*.py *_test.py:
+            Matches test files with names starting with test_ or ending with _test.py.
+
+python_classes = Test*:
+            Matches classes with names starting with Test.
+
+python_functions = test_*:
+            Matches functions with names starting with test_.
+
+log_cli = true:
+            Enables logging output during test runs.
+
+log_level = INFO:
+            Sets the logging level to INFO

@@ -1,0 +1,30 @@
+AAA Pattern
+
+AAA pattern for test case
+
+E.g. - Cpu Cooler
+Arrange - Get the environment ready -- switch board, electricity, wiring
+Act - Take action -- Switch the plug ON
+Assert: Check - Is the fan rotation or not
+
+
+
+def add(a, b):
+    return a+b
+
+Test Cases:
+    1. pass 2,5 -- output should be 7
+    2. pass -1,-1 -- output should be -2
+    3. pass -1,1 -- output should be 0
+    4. pass 2.3, 3.5 -- output should be 5.8
+    5. pass string -- error
+
+----------------------------------------------------------------
+run command -
+    pytest --rootdir .
+    pytest --rootdir . -s
+----------------------------------------------------------------
+
+Setup -- create math obj in setup
+all your test cases -- math class object
+TearDown -- remove the data from memory -- remove math obj from memory

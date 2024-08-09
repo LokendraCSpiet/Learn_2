@@ -1,0 +1,66 @@
+1. Cluster Architecture
+
+a. Master Node
+The Master Node is responsible for the management of the Kubernetes cluster. It controls the scheduling, deployment, and scaling of applications.
+	- API Server: Acts as the front end for the Kuberrietes control plane. All interactions with the cluster are handled through API calls, which the API server processes and validates.
+	- Etcd: A consistent and highly available key-value store used as Kubernetes' backing store for all cluster data
+	- Controller Manager: Manages various controllers that handle routine tasks such as ensuring the correct number of replicas for a pod, managing endpoints, and responding to node failures.
+	- Scheduler: Determines which nodes are suitable for running each pod based on resource availability and other constraints.
+
+
+
+Pods :-
+Definition: Pods are the smallest and simplest Kubernetes objects. They represent a single instance of a running process in your cluster.
+Characteristics:
+	- Can contain one or more containers.
+	- Containers within a Pod share the same network namespace, IP address, and storage.
+	- Pods are ephemeral and can be recreated by controllers when they fail or are terminated.
+Usage:
+	- Typically used to run a single container but can also run multiple containers that need to share resources.
+	- Managed by higher-level objects like Deployments and StatefulSets.
+
+
+
+Services :-
+Definition: Services are Kubernetes objects that define a logical set of Pods and a policy for accessing them.
+Types of Services:
+	- ClusterIP: Exposes the service on a cluster-internal IP, making it reachable only within the cluster.
+	- NodePort: Exposes the service on each node's IP at a static port.
+	- Load Balancer: Exposes the service externally using a cloud provider's load balancer.
+	- ExternalName: Maps a service to an external DNS name.
+Usage:
+	- Provides stable network endpoints to access Pods.
+	- Enables communication between different components of an application within the cluster.
+
+
+
+Deployments :-
+Definition: Deployments provide declarative updates for Pods and ReplicaSets.
+Characteristics:
+	- Manages the deployment and scaling of a set of Pods.
+	- Supports rolling updates and rollbacks.
+Usage:
+	- Used to create and manage ReplicaSets, ensuring the desired number of Pods are running.
+	- Facilitates updates to applications without downtime.
+
+
+
+
+https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+
+
+StatefulSets in Kubernetes : -
+Definition:
+StatefulSets are a Kubernetes resource used to manage the deployment and scaling of a set of Pods with unique, stable identities and persistent storage. Unlike Deployments, StatefulSets maintain a sticky identity for each Pod, ensuring predictable naming and ordering of Pods.
+Characteristics:
+1. Stable Network Identities: Each Pod in a StatefulSet has a unique, stable hostname. Pods are created with a stable DNS name, which makes it easier to manage the network identities of Pods.
+2. Stable Storage: StatefulSets can attach persistent storage to Pods using PersistentVolumeClaims (PVCs). Each Pod in a StatefulSet has its own PersistentVolumeClaim (PVC), ensuring data is preserved even if a Pod is rescheduled.
+3. Ordered Deployment and Scaling: Pods in a StatefulSet are created and deleted in a specific order. When scaling up or down, Pods are created or deleted sequentially.
+4. Ordered Rolling Updates: Updates to Pods in a StatefulSet are applied in order, ensuring that only one Pod is updated at a time, maintaining application stability.
+
+
+Definition: A PersistentVolumeClaim (PVC) is a request for storage by a user. It abstracts the details of the underlying storage and allows users to request specific size and access modes.
+
+Definition: A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes.
+
+

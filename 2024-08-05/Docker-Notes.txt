@@ -1,0 +1,13 @@
+install Docker -
+https://docs.docker.com/desktop/install/windows-install/
+
+
+https://hub.docker.com/
+
+
+https://aws.amazon.com/what-is/containerization/#:~:text=Docker%2C%20or%20Docker%20Engine%2C%20is,created%20with%20the%20Docker%20framework.
+
+
+https://www.ibm.com/topics/containers
+
+

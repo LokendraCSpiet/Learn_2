@@ -1,0 +1,49 @@
+Exercise 1: List Comprehensions and Filtering
+Task:
+1.	Create a list of numbers from 1 to 20.
+2.	Use a list comprehension to create a new list that contains only the even numbers from the original list.
+3.	Use a list comprehension to create a new list that contains the squares of the numbers from the original list.
+
+Exercise 2: Dictionaries
+Task:
+1.	Create a dictionary to store the names and ages of five people.
+2.	Write a function that takes this dictionary and returns the name of the oldest person.
+3.	Write a function that adds a new person to the dictionary.
+
+Exercise 3: File I/O
+Task:
+1.	Write a Python program that reads a text file and prints the number of words, lines, and characters in the file.
+2.	Write a Python program that takes a list of strings and writes them to a text file, each string on a new line.
+
+Exercise 4: Classes and Objects
+Task:
+1.	Create a class called Person with attributes for name, age, and email.
+2.	Write a method called display_info that prints the person's details.
+3.	Create a subclass called Student that inherits from Person and adds an attribute for student_id.
+4.	Write a method in the Student class that prints the student's details, including the student_id.
+
+Exercise 5: Error Handling
+Task:
+1.	Write a Python function that takes two numbers and divides the first by the second.
+2.	Use a try-except block to handle any potential division by zero errors and print an appropriate message.
+
+Exercise 6: Regular Expressions
+Task:
+1.	Write a Python function that takes a string and uses a regular expression to check if the string is a valid email address.
+2.	Write a Python function that takes a string and uses a regular expression to find all the words that start with a vowel.
+
+Exercise 7: Decorators
+Task:
+1.	Write a decorator function that prints "Function executed" before and after the execution of any function it decorates.
+2.	Use this decorator to decorate a function that takes two numbers and returns their sum.
+
+Exercise 8: Data Structures
+Task:
+1.	Implement a stack using a list with methods for push, pop, and peek.
+2.	Implement a queue using a list with methods for enqueue, dequeue, and peek.
+
+Exercise 9: Web Scraping
+Task:
+1.	Use the requests and BeautifulSoup libraries to scrape the titles of the latest articles from a news website.
+2.	Write a Python program that prints these titles.
+

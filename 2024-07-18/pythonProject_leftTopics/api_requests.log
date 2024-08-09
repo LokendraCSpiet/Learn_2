@@ -1,0 +1,8 @@
+2024-07-18 11:03:35,426 - DEBUG - Request: ('https://httpbin.org/get',), {}
+2024-07-18 11:03:35,436 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-07-18 11:03:43,413 - DEBUG - https://httpbin.org:443 "GET /get HTTP/11" 200 308
+2024-07-18 11:03:43,415 - DEBUG - Response: (response.status_code), (response.text)
+2024-07-18 11:03:43,415 - DEBUG - Request: ('https://httpbin.org/post',), {'data': {'key': 'value'}}
+2024-07-18 11:03:43,418 - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2024-07-18 11:03:44,291 - DEBUG - https://httpbin.org:443 "POST /post HTTP/11" 200 480
+2024-07-18 11:03:46,375 - DEBUG - Response: (response.status_code), (response.text)

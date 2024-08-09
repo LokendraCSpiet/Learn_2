@@ -1,0 +1,12 @@
+Summary
+
+Feature                     REST                                        SOAP
+
+Protocol                    Architectural style                         Protocol
+Communication               HTTP/HTTPS                                  HTTP, SMTP, TCP, etc.
+Data Format                 JSON, XML, HTML, etc.                       XML
+Stateless/Stateful          Stateless                                   Can be both
+Security                    HTTPS, OAuth                                WS-Security, SSL
+Performance                 Generally faster, lightweight               Generally slower, heavyweight
+Flexibility                 Flexible data formats                       Strict XML format
+Use Cases                   Web and mobile applications, public APIs    Enterprise applications, secure transactions

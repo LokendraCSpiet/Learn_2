@@ -1,0 +1,10 @@
+- docker pull hello-world (by goto docker website and copy this code to get image)
+
+- docker run hello-world
+
+
+- docker ps 			(get all active containers)
+- docker ps -a 			(get all containers)
+- docker image 			(get all images)
+- docker rmi __imageId__	(remove image)
+- docker rmi -f __imageId__	(remove image)

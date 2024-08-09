@@ -1,0 +1,50 @@
+Exercise 1: Nested Loops and Conditionals
+Task:
+1.	Write a Python program that prints a multiplication table for numbers 1 to 10.
+2.	Modify the program to print only the products that are even numbers.
+
+Exercise 2: Advanced List Comprehensions
+Task:
+1.	Create a list of all the numbers from 1 to 100 that are divisible by both 3 and 5 using a list comprehension.
+2.	Create a list of tuples, where each tuple contains a number from 1 to 10 and its square.
+
+Exercise 3: Complex String Manipulations
+Task:
+1.	Write a Python program that takes a sentence from the user and reverses the order of the words.
+2.	Write a Python function that takes a string and returns a dictionary with the count of each vowel in the string.
+
+Exercise 4: Nested Data Structures
+Task:
+1.	Create a list of dictionaries, where each dictionary contains details of a person (name, age, city).
+2.	Write a function that takes this list and returns a list of names of people who are older than 30.
+
+Exercise 5: Functions and Error Handling
+Task:
+1.	Write a function that takes two arguments, a and b, and returns their division. Handle the case where division by zero might occur and print an appropriate message.
+2.	Modify the function to raise a custom exception if either of the arguments is not a number.
+
+Exercise 6: Advanced File I/O
+Task:
+1.	Write a Python program that reads a CSV file and prints the contents in a formatted table.
+2.	Write a Python program that writes a list of dictionaries to a CSV file, with each dictionary representing a row.
+
+Exercise 7: Dictionary Operations
+Task:
+1.	Write a Python program that takes a dictionary of student names and their scores. Calculate and print the average score.
+2.	Write a function that takes this dictionary and returns a new dictionary with the students who scored above the average.
+
+Exercise 8: Nested Loops with Lists
+Task:
+1.	Create a 5x5 matrix (list of lists) initialized with zeros.
+2.	Write a Python function that takes this matrix and fills it with a pattern like a checkerboard (alternating 1s and 0s).
+
+Exercise 9: List and Dictionary Combinations
+Task:
+1.	Create a dictionary where the keys are strings and the values are lists of integers.
+2.	Write a function that takes this dictionary and returns a new dictionary where each list of integers is replaced by its sum.
+
+Exercise 10: Complex Conditionals
+Task:
+1.	Write a Python program that takes a list of integers and separates the list into two lists: one containing even numbers and the other containing odd numbers.
+2.	Write a function that takes these two lists and merges them, alternating between elements from each list.
+
